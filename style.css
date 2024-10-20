@@ -1,1 +1,96 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 5px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.navbar #logo h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.navbar ul {
+  display: flex;
+  padding: 20px 20px;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.781);
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  color: black;
+}
+
+.hero {
+  background-color: white;
+  display: flex;
+  padding: 20px 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  justify-content: center;
+  font-style: normal;
+  height: 100%;
+  align-items: center;
+}
+.hero .intro {
+  width: 30%;
+  align-items: center;
+  padding-right: 30px 30px;
+  text-align: justify;
+}
+.hero .intro h2 {
+  font-size: 2vh;
+}
+.hero .intro p {
+  max-width: 500px;
+}
+.hero .intro button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+}
+.hero .intro button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero .image {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  padding: 20px 20px;
+  text-align: left;
+}
+.hero .image img {
+  margin: 10px 10px;
+}
+.hero .image .icon {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
