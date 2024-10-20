@@ -128,3 +128,56 @@ html {
         }
     }
 }
+
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 100px 100px;
+    align-items: center;
+    .imageAboutMe{
+        padding: 40px 40px;
+        img{
+            padding: 10px 10px;
+            height: 50%;
+ 
+            width: 90%;
+            
+        }
+        figcaption{
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+        }
+    }
+    .aboutmeCard{
+        padding: 40px 50px; 
+        
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 40%;
+        background-color: whitesmoke;
+        
+        margin: 10px 10px;
+     
+        width: 25%;
+ 
+        h1{
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 4vh;
+                font-style: normal;
+                color: rgba(0, 0, 0, 0.863);
+        }
+        p{
+            font-family: "Bebas Neue", sans-serif;
+  
+                font-size: 16px;
+          
+                font-style: normal;
+        }
+    }
+}
