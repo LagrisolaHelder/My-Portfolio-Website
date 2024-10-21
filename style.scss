@@ -49,7 +49,8 @@ html {
                 font-style: normal;
                 color: rgba(0, 0, 0, 0.781);
                 transition: 0.5s;
-                &:hover{
+
+                &:hover {
                     color: black;
                 }
 
@@ -61,123 +62,191 @@ html {
 
 
 .hero {
-    background-color:  white;
+    background-color: white;
     display: flex;
     padding: 20px 20px;
     justify-content: center;
     font-style: normal;
     height: 100%;
     align-items: center;
-    .intro{
+
+    .intro {
         width: 40%;
-         align-items: center;
+        align-items: center;
         padding-right: 30px 30px;
-    
-        h2{
+
+        h2 {
             font-size: 5vh;
             font-family: "Bebas Neue", sans-serif;
             font-weight: normal;
-          
+
             font-style: normal;
 
         }
-        p{
-         max-width: 500px;
-         font-family: "Bebas Neue", sans-serif;
-         font-weight: 400;
-         font-style: normal;
-         color: rgba(0, 0, 0, 0.781);
+
+        p {
+            max-width: 500px;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgba(0, 0, 0, 0.781);
         }
 
-        button{
+        button {
             padding: 10px 20px;
             cursor: pointer;
             background-color: black;
             border: none;
             border-radius: 4px;
-            a{
+
+            a {
                 color: white;
                 font-family: "Bebas Neue", sans-serif;
                 font-size: 16px;
                 font-style: normal;
                 text-decoration: none;
-  
+
             }
         }
     }
-    .image{
+
+    .image {
         width: 30%;
         display: flex;
         justify-content: start;
         padding: 20px 20px;
         text-align: left;
-        img{
+
+        img {
             margin: 10px 10px;
 
         }
-        .icon{
+
+        .icon {
             display: flex;
             justify-content: center;
-             flex-direction: column;
-             margin-top: 35%;
+            flex-direction: column;
+            margin-top: 35%;
             align-items: center;
             height: 100%;
 
 
-         
+
         }
     }
 }
 
 
-.aboutme{
+.aboutme {
     display: flex;
     justify-content: center;
     height: 100%;
     padding: 100px 100px;
     align-items: center;
-    .imageAboutMe{
-        padding: 40px 40px;
-        img{
+    background-color: whitesmoke;
+
+
+    .imageAboutMe {
+       padding: 100px 100px;
+        display: flex;
+      
+        border: 1px dotted black;
+        margin: 20px 20px;
+        background-color: white;
+        border-radius: 5px;
+        img {
             padding: 10px 10px;
-            height: 50%;
- 
-            width: 90%;
-            
+            height: 400px;
+            width: 500px;
+           
+
         }
-        figcaption{
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 16px;
-            font-style: normal;
+
+        
+            .aboutmeCard {
+                padding: 40px 50px;
+                border-radius: 5px;
+                margin: 40px 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: white;
+                height: fit-content;
+                width: fit-content;
+        
+                h1 {
+                    font-family: "Bebas Neue", sans-serif;
+                    font-size: 4vh;
+                    font-style: normal;
+                    color: rgba(0, 0, 0, 0.863);
+                }
+        
+                p {
+                    font-family: "Bebas Neue", sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    text-align: justify;
+                    max-width: 500px;
+        
+                }
+            }
         }
     }
-    .aboutmeCard{
-        padding: 40px 50px; 
-        
-     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 40%;
-        background-color: whitesmoke;
-        
-        margin: 10px 10px;
-     
-        width: 25%;
+
  
-        h1{
-            font-family: "Bebas Neue", sans-serif;
-            font-size: 4vh;
-                font-style: normal;
-                color: rgba(0, 0, 0, 0.863);
+
+
+
+.myproject {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+
+    .project {
+        height: fit-content;
+        margin: 0px 20px;
+        border: 1px dotted black;
+        width: fit-content;
+        border-radius: 5px;
+        padding: 50px 20px;
+        background-color: white;
+
+
+        .imgcontainer {
+            text-align: center;
+            
+
+            img {
+                height: 200px;
+                width: 400px;
+                border: 1px dotted rgb(0, 0, 0);
+                border-radius: 5px;
+                padding: 5px 5px;
+
+            }
+
         }
-        p{
-            font-family: "Bebas Neue", sans-serif;
-  
-                font-size: 16px;
-          
-                font-style: normal;
+
+        .projectdescription {
+            max-width: fit-content;
+
+            p {
+                max-width: 400px;
+                padding: 20px 20px;
+                button{
+                    border-radius: 2px;
+                    font-family: "Bebas Neue", sans-serif;
+
+                }
+            }
         }
     }
 }

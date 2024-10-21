@@ -113,39 +113,90 @@ html {
   height: 100%;
   padding: 100px 100px;
   align-items: center;
+  background-color: whitesmoke;
 }
 .aboutme .imageAboutMe {
-  padding: 40px 40px;
+  padding: 100px 100px;
+  display: flex;
+  border: 1px dotted black;
+  margin: 20px 20px;
+  background-color: white;
+  border-radius: 5px;
 }
 .aboutme .imageAboutMe img {
   padding: 10px 10px;
-  height: 50%;
-  width: 90%;
+  height: 400px;
+  width: 500px;
 }
-.aboutme .imageAboutMe figcaption {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-}
-.aboutme .aboutmeCard {
+.aboutme .imageAboutMe .aboutmeCard {
   padding: 40px 50px;
+  border-radius: 5px;
+  margin: 40px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 40%;
-  background-color: whitesmoke;
-  margin: 10px 10px;
-  width: 25%;
+  background-color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
-.aboutme .aboutmeCard h1 {
+.aboutme .imageAboutMe .aboutmeCard h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4vh;
   font-style: normal;
   color: rgba(0, 0, 0, 0.863);
 }
-.aboutme .aboutmeCard p {
+.aboutme .imageAboutMe .aboutmeCard p {
   font-family: "Bebas Neue", sans-serif;
   font-size: 16px;
   font-style: normal;
+  text-align: justify;
+  max-width: 500px;
+}
+
+.myproject {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+}
+.myproject .project {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0px 20px;
+  border: 1px dotted black;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 50px 20px;
+  background-color: white;
+}
+.myproject .project .imgcontainer {
+  text-align: center;
+}
+.myproject .project .imgcontainer img {
+  height: 200px;
+  width: 400px;
+  border: 1px dotted rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.myproject .project .projectdescription {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.myproject .project .projectdescription p {
+  max-width: 400px;
+  padding: 20px 20px;
+}
+.myproject .project .projectdescription p button {
+  border-radius: 2px;
+  font-family: "Bebas Neue", sans-serif;
 }/*# sourceMappingURL=style.css.map */
