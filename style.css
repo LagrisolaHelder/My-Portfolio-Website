@@ -199,4 +199,27 @@ html {
 .myproject .project .projectdescription p button {
   border-radius: 2px;
   font-family: "Bebas Neue", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+  letter-spacing: 1px;
+}
+footer h3 {
+  font-size: 12px;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 40px 10px;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+footer a img {
+  height: 15px;
 }/*# sourceMappingURL=style.css.map */
