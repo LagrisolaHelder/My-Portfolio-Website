@@ -18,7 +18,7 @@
         <ul>
             <li><a href="#aboutme">About</a></li>
             <li><a href="#project">My Portfolio Project</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
 
 
         </ul>
@@ -57,7 +57,7 @@
     <div id="aboutme" class="aboutme">
         <div class="imageAboutMe">
             <img src="img/HelderLagrisola.JPEG" alt="About Me: Helder Lagrisola">
-            
+
 
             <div class="aboutmeCard">
                 <h1>About Me</h1>
@@ -153,24 +153,28 @@
     </div>
 
 
-    <div class="contactMe">
-        <h1>Contact Me </h1>
-        <form action="/submit" method="POST">
+    <div id="contact" class="contactMe">
+    
+        <div class="formcontainer">
+            <h1>Get in touch </h1>
+            <form action="/submit" method="POST">
 
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
 
 
-            <input type="submit" value="Submit">
-        </form>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+
     </div>
 
 
@@ -188,7 +192,8 @@
 
 
     <footer>
-        <h3>&copy2024 Helder Lagrisola | <a href=""><img src="icon/facebook.png" alt=""></a><a href=""><img src="icon/instagram.png" alt=""></a> <a href=""><img src="icon/github.png" alt=""></a>
+        <h3>&copy2024 Helder Lagrisola | <a href=""><img src="icon/facebook.png" alt=""></a><a href=""><img
+                    src="icon/instagram.png" alt=""></a> <a href=""><img src="icon/github.png" alt=""></a>
             <a href=""><img src="icon/linkedin.png" alt=""></a>
         </h3>
     </footer>

@@ -201,6 +201,50 @@ html {
   font-family: "Bebas Neue", sans-serif;
 }
 
+.contactMe {
+  height: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+}
+.contactMe .formcontainer {
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 1px dotted black;
+}
+.contactMe .formcontainer form {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  text-align: left;
+}
+.contactMe .formcontainer form #email {
+  padding: 10px 10px;
+}
+.contactMe .formcontainer input {
+  width: 300px;
+  padding: 10px 10px;
+}
+.contactMe .formcontainer textarea {
+  width: 300px;
+}
+.contactMe .btn {
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  padding-bottom: 20px;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -214,6 +258,7 @@ footer h3 {
   font-size: 12px;
   font-family: "Bebas Neue", sans-serif;
   padding: 40px 10px;
+  color: rgba(0, 0, 0, 0.808);
 }
 footer a {
   color: black;

@@ -147,54 +147,55 @@ html {
 
 
     .imageAboutMe {
-       padding: 100px 100px;
+        padding: 100px 100px;
         display: flex;
-      
+
         border: 1px dotted black;
         margin: 20px 20px;
         background-color: white;
         border-radius: 5px;
+
         img {
             padding: 10px 10px;
             height: 400px;
             width: 500px;
-           
+
 
         }
 
-        
-            .aboutmeCard {
-                padding: 40px 50px;
-                border-radius: 5px;
-                margin: 40px 40px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                background-color: white;
-                height: fit-content;
-                width: fit-content;
-        
-                h1 {
-                    font-family: "Bebas Neue", sans-serif;
-                    font-size: 4vh;
-                    font-style: normal;
-                    color: rgba(0, 0, 0, 0.863);
-                }
-        
-                p {
-                    font-family: "Bebas Neue", sans-serif;
-                    font-size: 16px;
-                    font-style: normal;
-                    text-align: justify;
-                    max-width: 500px;
-        
-                }
+
+        .aboutmeCard {
+            padding: 40px 50px;
+            border-radius: 5px;
+            margin: 40px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+            height: fit-content;
+            width: fit-content;
+
+            h1 {
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 4vh;
+                font-style: normal;
+                color: rgba(0, 0, 0, 0.863);
+            }
+
+            p {
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                text-align: justify;
+                max-width: 500px;
+
             }
         }
     }
+}
 
- 
+
 
 
 
@@ -222,7 +223,7 @@ html {
 
         .imgcontainer {
             text-align: center;
-            
+
 
             img {
                 height: 200px;
@@ -241,7 +242,8 @@ html {
             p {
                 max-width: 400px;
                 padding: 20px 20px;
-                button{
+
+                button {
                     border-radius: 2px;
                     font-family: "Bebas Neue", sans-serif;
 
@@ -250,29 +252,90 @@ html {
         }
     }
 }
- 
 
-footer{
+.contactMe {
+    height: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+
+    .formcontainer {
+        padding: 20px 20px;
+        border-radius: 5px;
+        border: 1px dotted black;
+
+        form {
+            height: fit-content;
+
+            margin: auto;
+            width: fit-content;
+            color: white;
+
+            text-align: left;
+
+            #email {
+                padding: 10px 10px;
+            }
+
+        }
+
+        input {
+            width: 300px;
+            padding: 10px 10px;
+
+
+        }
+
+        textarea {
+            width: 300px;
+        }
+
+    }
+
+    .btn {
+        font-family: "Bebas Neue", sans-serif;
+        padding-top: 20px;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        padding-bottom: 20px;
+
+    }
+}
+
+
+
+footer {
     display: flex;
     justify-content: center;
+
     height: 10%;
     align-items: center;
     padding: 20px 20px;
     background-color: white;
     letter-spacing: 1px;
-    h3{
+
+    h3 {
         font-size: 12px;
         font-family: "Bebas Neue", sans-serif;
         padding: 40px 10px;
+        color: rgba(0, 0, 0, 0.808);
 
     }
-    a{
+
+    a {
         color: black;
         text-decoration: none;
         padding: 10px 10px;
-        img{
+
+        img {
             height: 15px;
-          
+
         }
     }
 }
