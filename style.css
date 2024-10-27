@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  background-color: whitesmoke;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -20,6 +24,7 @@ html {
   justify-content: center;
   display: flex;
   align-items: center;
+  z-index: 999;
 }
 .navbar #logo h3 {
   font-family: "Bebas Neue", sans-serif;
@@ -55,6 +60,7 @@ html {
   font-style: normal;
   height: 100%;
   align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37);
 }
 .hero .intro {
   width: 40%;
@@ -154,6 +160,31 @@ html {
   font-style: normal;
   text-align: justify;
   max-width: 500px;
+}
+
+.projectIntro {
+  padding: 20px 20px;
+  background-color: whitesmoke;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+}
+.projectIntro .containerIntro {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  width: 40%;
+  border-radius: 10px;
+  padding: 70px 70px;
+  border: 1px dotted black;
+}
+.projectIntro .containerIntro h1 {
+  color: rgba(0, 0, 0, 0.863);
+  padding: 20px 0;
 }
 
 .myproject {
